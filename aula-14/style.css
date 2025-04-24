@@ -1,0 +1,55 @@
+.corpcima {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    cursor:crosshair;
+}
+.corpcima:hover {
+    color: aquamarine;
+  }
+
+.click {
+    color: black;
+    font-size: 30px;
+}
+.click:active {
+    color: blueviolet;
+}
+
+.linkemoji1{
+    color: rgb(61, 17, 255);
+    font-size: 30px;
+}
+.linkemoji1::before {
+    content: '\2605';
+}
+.linkemoji1::after {
+    content: '\2605';
+}
+.linkmusic{
+    color: darkred;
+    font-size: 30px;
+}
+.linkmusic::after {
+    content: '\266A';
+}
+.caixa {
+    background-color: #85d8d8;
+    border: 2px;
+    color: rgb(0, 0, 0);
+    padding: 15px 36px;
+    text-align: top;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.caixa:hover {
+    box-shadow: 0 12px 16px 0 #ff1f9a3f, 0 17px 50px 0 #ff1f9a3f;
+  }
+   .test > p {
+    display: none;
+  }
+  .test:hover > p {
+    display: block;
+  }
